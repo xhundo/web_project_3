@@ -1,0 +1,19 @@
+.photo-grid {
+  margin: 0 0 92px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 285px);
+  grid-gap: 16px;
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .photo-grid__list {
+    grid-template-columns: repeat(2, 285px);
+  }
+}
