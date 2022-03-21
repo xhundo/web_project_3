@@ -6,3 +6,15 @@
 .header__logo {
   margin: 34px 0 0 0;
 }
+
+@media screen and (max-width: 412px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 50px 0;
+  }
+  .header__logo {
+    margin: 0;
+    width: 200px;
+  }
+}
