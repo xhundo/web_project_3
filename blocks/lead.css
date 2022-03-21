@@ -56,7 +56,7 @@
   }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 512px) {
   .lead {
     display: flex;
     flex-direction: column;

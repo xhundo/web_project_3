@@ -165,7 +165,7 @@
   }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 512px) {
   .place {
     max-width: 320px;
   }
