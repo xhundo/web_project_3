@@ -1,19 +1,26 @@
-# Project 3: From Homeland to Homeland
-### Overview  
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**    
-  
-This is a project that showcases the hometowns of some of Practicum's employees. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/1zCYcflj6BJx5VqOvXU9nb/Sprint-3-From-Homeland-to-Homeland-desktop-mobile?node-id=0%3A1)  
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!  
+# Homeland to Homeland
+
+This is the third project for sprint 3 Web Development at Practicum by Yandex. The languages used are HTML/CSS.
+
+## Technologies used
+
+- HTML5 Semantics
+- CSS
+- Figma which was used for the design brief and specs.
+- Responsive layouts (grid, w. flexbox positioning.)
+- Media Queries.
+
+This project is a webpage showcasing Practicum's Art Gallery. It includes a showcase of Practicum employees hometowns.
+It was created to showcase the gallery on popular screen sizes.
+
+### Link to project
+
+- [https://xhundo.github.io/web_project_3/]
+
+### Plans for improvement
+
+- Implement Animations
+- Form use
+- Interactive button use.
+- Background Animations
+- CSS Animations
