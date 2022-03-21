@@ -5,7 +5,7 @@
 }
 
 .lead__title {
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -17,7 +17,7 @@
 }
 
 .lead__subtitle {
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
@@ -40,7 +40,7 @@
   }
 
   .lead__title {
-    font-family: "Inter";
+    font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
@@ -67,7 +67,7 @@
     margin: 0;
     width: 288px;
     min-height: 132px;
-    font-family: "Inter";
+    font-family: "Inter", "Arial", sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 900;
@@ -76,7 +76,7 @@
   }
 
   .lead__subtitle {
-    font-family: "Inter";
+    font-family: "Inter", "Arial", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
