@@ -1,15 +1,17 @@
 .photo-grid {
-  margin: 0 0 92px 0;
-  display: flex;
-  justify-content: center;
+  margin: 0 0px 92px 0px;
 }
 
 .photo-grid__list {
+  display: flex;
+  justify-content: center;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(4, 285px);
+  grid-template-columns: repeat(auto-fill, 285px);
   grid-gap: 16px;
+  width: 100%;
   margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 1000px) {
