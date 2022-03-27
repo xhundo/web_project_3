@@ -104,11 +104,7 @@
   margin: 0 0 25px 0;
 }
 
-.places__paragraph:nth-of-type(2n) {
-  margin-bottom: 0;
-}
-
-.places__paragraph:nth-of-type(3n) {
+.places__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
@@ -130,12 +126,8 @@
 
   .places__title {
     width: 340px;
-    font-family: "Inter", "Arial", sans-serif;
     font-size: 42px;
-    font-style: normal;
-    font-weight: 900;
     line-height: 1.09;
-    text-align: left;
   }
 
   .places__image {
@@ -151,32 +143,24 @@
 
   .places__paragraph {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.62;
-    text-align: left;
   }
 
   .places__text {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.62;
-    text-align: left;
   }
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 600px) {
   .places {
     max-width: 320px;
+    margin: 0 0 64px 0;
   }
 
   .places__title {
     width: 288px;
-    font-family: "Inter", "Arial", sans-serif;
     font-size: 32px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 1.09;
-    text-align: left;
     align-items: baseline;
   }
 
@@ -188,6 +172,11 @@
     align-items: center;
     grid-gap: 30px 25px;
     grid-template-columns: 320px;
+    margin: 0 0 50px 0;
+  }
+
+  .places__item:nth-of-type(5n) {
+    margin: 0;
   }
 
   .places__image {
@@ -197,10 +186,6 @@
 
   .places__button {
     max-width: 288px;
-    font-family: "Inter", "Arial", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 600;
     line-height: 1.16;
     text-align: center;
     padding: 13px 40px 13px 40px;
