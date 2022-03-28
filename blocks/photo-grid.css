@@ -22,7 +22,7 @@
     padding: 0;
     gap: 16px;
     margin: 90px 0 0 0;
-    width: 100%;
+    max-width: 720px;
   }
 
   .photo-grid__item {
