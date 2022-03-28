@@ -30,6 +30,7 @@
 .lead__image {
   margin: 64px 0 92px 0;
   max-width: 984px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -38,7 +39,6 @@
   }
 
   .lead__image {
-    max-width: 768px;
     margin: 36px 0 88px 0;
   }
 }

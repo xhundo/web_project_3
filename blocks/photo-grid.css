@@ -18,13 +18,15 @@
 
 @media screen and (max-width: 1000px) {
   .photo-grid__list {
-    grid-template-columns: repeat(2, 352px);
+    grid-template-columns: repeat(auto-fill, minmax(252px, 1fr));
     padding: 0;
+    gap: 16px;
     margin: 90px 0 0 0;
+    width: 100%;
   }
 
   .photo-grid__item {
-    width: 353px;
+    width: 100%;
   }
 }
 
